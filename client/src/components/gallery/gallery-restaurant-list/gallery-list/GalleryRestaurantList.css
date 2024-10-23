@@ -1,0 +1,89 @@
+.gallery-cards {
+    display: flex;
+    width: 21%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+}
+
+.gallery-cards p {
+    padding-left: 24px;
+}
+
+.container-gallery {
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(120, 141, 141);
+    flex-wrap: wrap;
+}
+
+.container-gallery .container-gallery-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 2em;
+    text-align: start;
+    overflow: hidden;
+}
+
+.gallery-title .title_justify {
+    text-align: center;
+}
+
+.container .gallery-title {
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+    font-family: "Raleway";
+    font-weight: bold;
+}
+
+.container-gallery .container-gallery-info {
+    color: #191d20;
+    font-weight: bold;
+}
+
+.container-gallery .container-gallery-img {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+@keyframes bounceStars {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    
+    40% {
+      transform: translateY(-10px);
+    }
+    
+    60% {
+      transform: translateY(-5px);
+    }
+}
+
+.container-gallery-info .fa-star {
+animation: bounceStars 2s ease infinite;
+}
+
+.container-gallery-info .fa-star:nth-child(2) {
+animation-delay: 0.1s;
+}
+
+.container-gallery-info .fa-star:nth-child(3) {
+animation-delay: 0.8s;
+}
+
+.container-gallery-info .fa-star:nth-child(4) {
+animation-delay: 0.3s;
+}
+
+.container-gallery-info .fa-star:nth-child(5) {
+animation-delay: 0.6s;
+}
+
+

@@ -1,0 +1,51 @@
+.ontainer-anmelden {
+    width: 80%;
+    height: auto;
+    background-color:#333739;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 140px;
+  }
+  
+.anmelden__tok {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #333739;
+}
+  
+.anmelden {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    color: #FFF;
+    padding-top: 3.5em;
+}
+
+.formular {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    height: auto;
+    background-color: #FFFFFF;
+    min-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.ontainer-anmelden .formular {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    width: 50%;
+}
+
+.errorMessage {
+    color: red;
+}

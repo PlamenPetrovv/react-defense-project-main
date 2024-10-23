@@ -1,0 +1,19 @@
+.wrapper-img {
+  display: flex;
+  background-color: #ffffff;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-1,
+.img-2 {
+  flex: 0 1 auto;
+
+}
+
+.img-1 img,
+.img-2 img {
+  height: 440px;
+  width: 683px;
+}

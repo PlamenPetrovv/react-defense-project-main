@@ -1,0 +1,78 @@
+
+
+.container {
+  width: 100%;
+  height: auto;
+  background-color: #333739;
+  display: flex;
+  flex-direction: column;
+}
+
+.anmelden__tok {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333739;
+}
+
+.anmelden {
+  color: #fff;
+  padding-top: 1.5em;
+}
+
+.formular {
+  width: 80%;
+  margin: 2em auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.kontakt-formular {
+  justify-content: inherit;
+}
+
+.kontakt-formular-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.kontakt-formular-center label {
+  margin-bottom: 0.5em;
+}
+
+.kontakt-formular-center input,
+.kontakt-formular-center textarea {
+  margin-bottom: 1em;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 400px;
+}
+
+.button--red--absenden {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.formular #kontakt-formular div p {
+  color: red;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 0.5em;
+}
+
+.inputError {
+  border: 1px solid red;
+}
+
+.styles {
+  color: red;
+}
